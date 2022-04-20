@@ -22,3 +22,10 @@
 - Opbygningen af en distro
 - Packagemanagers
 - Repositories
+
+## Part 4
+- Forstå services
+- Lav din egen service
+- Start/stop service
+- Prøv crond
+
