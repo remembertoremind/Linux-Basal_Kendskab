@@ -17,10 +17,10 @@ toc: false
 ## Hvad vi skal gennem
 - Lidt nomenklatur
 - Linux-kernen
-- Filsystem
+- Filsystemer
 - Directories
 - Opbygningen af en distro
-- Packagemanagers
+- Package-managers
 - Repositories
 
 # Nomenklatur
@@ -62,7 +62,7 @@ toc: false
 ## dir: /
 - / 
 
-root. Det her er det laveste niveau af filsystemet. Alt på Linux tager udgangspunkt i det her directory
+root. Det her er det laveste niveau af filsystemet. Alt på Linux tager udgangspunkt i dette directory
 
 ## dir: bin
 - /bin/
@@ -124,31 +124,44 @@ temporary. Stedet hvor systemet lægger filer for eks åbne programmer eller fil
 - Kernen: Dette er forbindelsen mellem hardware og software\pause
 - coreutils: En samling af programmer, som sørger for basal funktionalitet\pause
 - Package-manager: En applikation der installere/afinstallerer programmer og holder dem opdateret\pause
-	- Kan man automatisere denne proces?
-	- Pro/cons?\pause
 - sysinit (systemd): Vores måde at håndtere services
 
-# Packagemanagers
+# Repositories
+
+## What the hell is it!?
+- Vil du google efter vlc?\pause
+- Vil du google efter spotify?\pause
+- Kan man komme til at downloade en forkert pakke?!\pause
+- Repository er din distros sted hvor den henter software\pause
+- Størrelse på repo afhænger af antallet af brugere/maintainers\pause
+- Nogle distroer er gigantiske andre er små
+	- Debian = relativt gigantisk
+	- CentOS = møj møj lille\pause
+- Hver maintainer har sin egne applikationer\pause
+- Hvert enkelt stykke software er testet\pause
+- Nogen holder konstant øje med det
+
+## Maintainer 
+
+![Maintainer](../images/package.png){ width=85% }
+
+# Package-managers
 
 ## Pacman - Update
 
-![Pacman](../images/update.png){ width=80% }
+![Pacman](../images/update.png){ width=85% }
 
 ## Pacman - Install
 
 ![Pacman](../images/install2.png){ width=100% }
 
-# Repositories
-
-## What the hell is it!?
-- Repository er din distros sted hvor den henter software
-- Størrelse på repo afhænger af antallet af brugere/maintainers
-- Nogle distroer er gigantiske andre er små
-	- Debian = relativt gigantisk
-	- CentOS = møj møj lille
-- Hver maintainer har sin egne applikationer
-- Hvert enkelt stykke software er testet
-- Nogen holder konstant øje med det
+## apt, dnf, yum eller pacman?
+- Der findes mange slags, men de gør praktisk talt det samme
+- Når man lærer en distro at kende er det altid ens
+- Der er forskellige årsager til, at man har valgt at bygge forskellige\pause
+- Automatisering
+	- Kan man automatisere denne proces?
+	- Pro/cons?	
 
 # Afslutning
 
