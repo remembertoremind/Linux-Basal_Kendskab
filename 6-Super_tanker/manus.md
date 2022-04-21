@@ -2,7 +2,7 @@
 aspectratio: 43
 author: Christian
 title: Kursus i Linux
-subtitle: Part 5 - SELinux og Super Tanker
+subtitle: Part 6 - SELinux og Super Tanker
 date: \today
 institute: Rådet for større IT-sikkerhed
 header-includes:
