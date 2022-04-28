@@ -1,4 +1,4 @@
-# Linux-Basal_Kendskab
+# Linux - Basal Kendskab
 
 ## Part 1
 - 60'erne: Multics
